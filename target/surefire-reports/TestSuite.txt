@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 54.294 sec <<< FAILURE! - in TestSuite
+TC_2014Q20007_001_015(com.happyfresh.android.Launch)  Time elapsed: 5.571 sec  <<< FAILURE!
+java.lang.AssertionError: Back button on Sign Up page not exist expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.happyfresh.android.Launch.TC_2014Q20007_001_015(Launch.java:178)
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="37.219" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rsavianto/androidTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/rsavianto/androidTest"/>
+    <property name="java.runtime.version" value="1.8.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5_/9ljldtvj3lld35x4szrh2_cm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/rsavianto/apache-maven-3.3.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rsavianto/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="user.home" value="/Users/rsavianto"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="rsavianto"/>
+    <property name="java.class.path" value="/Users/rsavianto/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="/Users/rsavianto/Library/Java/Extensions:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Users/rsavianto/Library/java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/rsavianto/apache-maven-3.3.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="TC_2014Q20007_001_001" classname="com.happyfresh.android.Launch" time="4.228"/>
+  <testcase name="TC_2014Q20007_001_002" classname="com.happyfresh.android.Launch" time="1.955"/>
+  <testcase name="TC_2014Q20007_001_003" classname="com.happyfresh.android.Launch" time="2.083"/>
+  <testcase name="TC_2014Q20007_001_004" classname="com.happyfresh.android.Launch" time="1.927"/>
+  <testcase name="TC_2014Q20007_001_005" classname="com.happyfresh.android.Launch" time="0.723"/>
+  <testcase name="TC_2014Q20007_001_006" classname="com.happyfresh.android.Launch" time="1.858"/>
+  <testcase name="TC_2014Q20007_001_007" classname="com.happyfresh.android.Launch" time="1.788"/>
+  <testcase name="TC_2014Q20007_001_008" classname="com.happyfresh.android.Launch" time="0.784"/>
+  <testcase name="TC_2014Q20007_001_009" classname="com.happyfresh.android.Launch" time="0.714"/>
+  <testcase name="TC_2014Q20007_001_010" classname="com.happyfresh.android.Launch" time="10.847"/>
+  <testcase name="TC_2014Q20007_001_012" classname="com.happyfresh.android.Launch" time="2.579"/>
+  <testcase name="TC_2014Q20007_001_013" classname="com.happyfresh.android.Launch" time="1.02"/>
+  <testcase name="TC_2014Q20007_001_014" classname="com.happyfresh.android.Launch" time="1.142"/>
+  <testcase name="TC_2014Q20007_001_015" classname="com.happyfresh.android.Launch" time="5.571">
+    <failure message="Back button on Sign Up page not exist expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Back button on Sign Up page not exist expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.happyfresh.android.Launch.TC_2014Q20007_001_015(Launch.java:178)
+</failure>
+  </testcase>
+</testsuite>
