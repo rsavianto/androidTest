@@ -16,7 +16,7 @@ public class SetUp {
 	@BeforeClass
     public void setUp() throws Exception {
 //        File classpathRoot = new File(System.getProperty("user.dir"));
-        File appDir = new File("Home/jobs/Android/workspace/build/outputs/apk/");
+        File appDir = new File("./app/build/outputs/apk/");
         File app = new File(appDir, "app-staging-debug.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","Android");
